@@ -13,6 +13,7 @@
 		1F2CFE4F1DB55E5E00E1C76B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F2CFE4E1DB55E5E00E1C76B /* Assets.xcassets */; };
 		1F2CFE521DB55E5E00E1C76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2CFE501DB55E5E00E1C76B /* LaunchScreen.storyboard */; };
 		1F2CFE5A1DB566B300E1C76B /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE591DB566B300E1C76B /* Representative.swift */; };
+		1F2CFE5D1DB568E200E1C76B /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE5C1DB568E200E1C76B /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1F2CFE511DB55E5E00E1C76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F2CFE531DB55E5E00E1C76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F2CFE591DB566B300E1C76B /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		1F2CFE5C1DB568E200E1C76B /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				1F2CFE471DB55E5E00E1C76B /* AppDelegate.swift */,
 				1F2CFE5B1DB566B700E1C76B /* Model */,
+				1F2CFE5E1DB568E700E1C76B /* ModelController */,
 				1F2CFE491DB55E5E00E1C76B /* ViewController.swift */,
 				1F2CFE4B1DB55E5E00E1C76B /* Main.storyboard */,
 				1F2CFE4E1DB55E5E00E1C76B /* Assets.xcassets */,
@@ -73,6 +76,14 @@
 				1F2CFE591DB566B300E1C76B /* Representative.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		1F2CFE5E1DB568E700E1C76B /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				1F2CFE5C1DB568E200E1C76B /* NetworkController.swift */,
+			);
+			name = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2CFE5D1DB568E200E1C76B /* NetworkController.swift in Sources */,
 				1F2CFE4A1DB55E5E00E1C76B /* ViewController.swift in Sources */,
 				1F2CFE481DB55E5E00E1C76B /* AppDelegate.swift in Sources */,
 				1F2CFE5A1DB566B300E1C76B /* Representative.swift in Sources */,
@@ -314,6 +326,7 @@
 				1F2CFE581DB55E5E00E1C76B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
