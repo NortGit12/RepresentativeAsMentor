@@ -16,6 +16,8 @@
 		1F2CFE601DB569F000E1C76B /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE5F1DB569F000E1C76B /* RepresentativeController.swift */; };
 		1F2CFE621DB573C800E1C76B /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE611DB573C800E1C76B /* States.swift */; };
 		1F2CFE651DB5743900E1C76B /* StatesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE641DB5743900E1C76B /* StatesListTableViewController.swift */; };
+		1F2CFE681DB57F8A00E1C76B /* StateDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE671DB57F8A00E1C76B /* StateDetailTableViewController.swift */; };
+		1F2CFE6A1DB581D800E1C76B /* StateDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE691DB581D800E1C76B /* StateDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1F2CFE5F1DB569F000E1C76B /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
 		1F2CFE611DB573C800E1C76B /* States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
 		1F2CFE641DB5743900E1C76B /* StatesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesListTableViewController.swift; sourceTree = "<group>"; };
+		1F2CFE671DB57F8A00E1C76B /* StateDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDetailTableViewController.swift; sourceTree = "<group>"; };
+		1F2CFE691DB581D800E1C76B /* StateDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				1F2CFE641DB5743900E1C76B /* StatesListTableViewController.swift */,
+				1F2CFE671DB57F8A00E1C76B /* StateDetailTableViewController.swift */,
+				1F2CFE691DB581D800E1C76B /* StateDetailTableViewCell.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -181,10 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2CFE6A1DB581D800E1C76B /* StateDetailTableViewCell.swift in Sources */,
 				1F2CFE601DB569F000E1C76B /* RepresentativeController.swift in Sources */,
 				1F2CFE5D1DB568E200E1C76B /* NetworkController.swift in Sources */,
 				1F2CFE651DB5743900E1C76B /* StatesListTableViewController.swift in Sources */,
 				1F2CFE621DB573C800E1C76B /* States.swift in Sources */,
+				1F2CFE681DB57F8A00E1C76B /* StateDetailTableViewController.swift in Sources */,
 				1F2CFE481DB55E5E00E1C76B /* AppDelegate.swift in Sources */,
 				1F2CFE5A1DB566B300E1C76B /* Representative.swift in Sources */,
 			);
