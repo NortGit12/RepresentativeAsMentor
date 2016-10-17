@@ -14,6 +14,7 @@
 		1F2CFE521DB55E5E00E1C76B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F2CFE501DB55E5E00E1C76B /* LaunchScreen.storyboard */; };
 		1F2CFE5A1DB566B300E1C76B /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE591DB566B300E1C76B /* Representative.swift */; };
 		1F2CFE5D1DB568E200E1C76B /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE5C1DB568E200E1C76B /* NetworkController.swift */; };
+		1F2CFE601DB569F000E1C76B /* RepresentativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2CFE5F1DB569F000E1C76B /* RepresentativeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1F2CFE531DB55E5E00E1C76B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F2CFE591DB566B300E1C76B /* Representative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
 		1F2CFE5C1DB568E200E1C76B /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		1F2CFE5F1DB569F000E1C76B /* RepresentativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentativeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				1F2CFE5C1DB568E200E1C76B /* NetworkController.swift */,
+				1F2CFE5F1DB569F000E1C76B /* RepresentativeController.swift */,
 			);
 			name = ModelController;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F2CFE601DB569F000E1C76B /* RepresentativeController.swift in Sources */,
 				1F2CFE5D1DB568E200E1C76B /* NetworkController.swift in Sources */,
 				1F2CFE4A1DB55E5E00E1C76B /* ViewController.swift in Sources */,
 				1F2CFE481DB55E5E00E1C76B /* AppDelegate.swift in Sources */,
