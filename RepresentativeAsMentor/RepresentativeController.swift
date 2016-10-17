@@ -16,7 +16,8 @@ class RepresentativeController {
     
     static let baseURL = URL(string: "http://whoismyrepresentative.com/getall_reps_bystate.php")
     private static let keyState = "state"
-    private static let keyResult = "result"
+    private static let keyOutput = "output"
+    private static let keyResult = "results"
     
     //==================================================
     // MARK: - Methods
@@ -30,7 +31,7 @@ class RepresentativeController {
             return
         }
         
-        let urlParameters = [keyState : state]
+        let urlParameters = [keyState : state, keyOutput: "json"]
         
         NetworkController.performRequest(for: url, httpMethod: .Get, urlParameters: urlParameters) { (data, error) in
             
@@ -42,8 +43,9 @@ class RepresentativeController {
                     return
             }
             
-            guard let responseDictionary = (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)) as? [String : AnyObject],
-                let repDictionary = responseDictionary[keyResult] as? [[String : Any]] else {
+            guard let responseDictionary = (try? JSONSerialization.jsonObject(with: data, options: .allowFragments)) as? [String : AnyObject]
+                , let repDictionary = responseDictionary[keyResult] as? [[String : Any]]
+                else {
                     
                     NSLog("Unable to serialize JSON. \nResponse: \(responseDataString)")
                     completion(nil)
